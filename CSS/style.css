@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+button {
+  margin-left: 5px;
+}
+
+#total {
+  margin-top: 20px;
+  text-align: center;
+}

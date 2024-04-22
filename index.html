@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="JS/index.js"></script>
+  </head>
+  <body>
+    <h1>Carrito de Compras</h1>
+
+    <div id="items">
+      <div class="item">
+        <span class="name">Producto 1</span>
+        <span class="price">$10</span>
+        <button class="add-btn">Agregar</button>
+        <button class="remove-all-btn">Eliminar Todo</button>
+        <button class="remove-one-btn">Eliminar Uno</button>
+        <span class="quantity">0</span>
+      </div>
+      <div class="item">
+        <span class="name">Producto 2</span>
+        <span class="price">$20</span>
+        <button class="add-btn">Agregar</button>
+        <button class="remove-all-btn">Eliminar Todo</button>
+        <button class="remove-one-btn">Eliminar Uno</button>
+        <span class="quantity">0</span>
+      </div>
+    </div>
+
+    <div id="total">
+      <p>Total antes del IVA: <span id="total-before-tax">$0</span></p>
+      <p>Total después del IVA: <span id="total-after-tax">$0</span></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
